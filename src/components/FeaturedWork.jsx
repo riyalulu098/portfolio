@@ -148,11 +148,11 @@ const FeaturedWork = () => {
 
                     {/* Project 3: Fresh Bite */}
                     <div className="project-column">
-                        <a href="#" className="work-card">
+                        <a href="https://www.figma.com/design/KLNqT1DtgQcf0WVfIkebrb/Untitled?node-id=1-26&t=EOnhOZRhRMJ4rqjh-1" target="_blank" rel="noopener noreferrer" className="work-card">
                             <div className="work-card-header">
                                 <div>
-                                    <h3>Fresh Bite</h3>
-                                    <p>Food Delivery App Interface</p>
+                                    <h3>Lingo</h3>
+                                    <p>Learning app</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -160,8 +160,8 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/freshsss.webp"
-                                    alt="Fresh Bite - Food Delivery Web App Concept"
+                                    src="/assets/learning app moc.png"
+                                    alt="Learning app"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
@@ -174,7 +174,7 @@ const FeaturedWork = () => {
 
                     {/* Project 4: SkyCast */}
                     <div className="project-column">
-                        <a href="#" className="work-card">
+                        <a href="https://www.figma.com/design/kBB5BC7AIwxj5VMLO7777k/Untitled?node-id=0-1&t=MAl2GCAaRNuT8nsf-1" target="_blank" rel="noopener noreferrer" className="work-card">
                             <div className="work-card-header">
                                 <div>
                                     <h3>Daily Do</h3>
