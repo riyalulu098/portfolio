@@ -1,8 +1,8 @@
 {
-  "name": "shahul-portfolio-react",
-  "version": "1.0.0",
+  "name": "riya-portfolio-react",
+  "version": "0.0.0",
   "private": true,
-  "homepage": "https://shahulhamd456.github.io/shahulhamd",
+  "homepage": "https://riyalulu098.github.io/portfolio",
   "scripts": {
     "dev": "vite --host",
     "predeploy": "npm run build",

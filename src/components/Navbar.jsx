@@ -65,12 +65,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="mobile-only-btn">
-            <a href="mailto:shahulhamd456@gmail.com" className="btn btn-primary w-100" onClick={() => setIsMobileMenuOpen(false)}>Let's Talk</a>
+            <a href="mailto:riyalulu098@gmail.com" className="btn btn-primary w-100" onClick={() => setIsMobileMenuOpen(false)}>Let's Talk</a>
           </li>
         </ul>
 
         <div className="navbar-actions">
-          <a href="mailto:shahulhamd456@gmail.com" className="btn btn-primary nav-cta-btn magnetic-btn">
+          <a href="mailto:riyalulu098@gmail.com" className="btn btn-primary nav-cta-btn magnetic-btn">
             Let's Talk
           </a>
           <div className="menu-toggle" onClick={toggleMenu}>
