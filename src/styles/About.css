@@ -73,20 +73,20 @@
     gap: 20px;
     padding: 24px;
     margin-bottom: 20px;
-    border-left: 3px solid var(--primary-accent);
-    background: rgba(255, 255, 255, 0.2);
+    border-left: 2px solid var(--text-muted); /* Thinner, softer border */
+    background: rgba(255, 255, 255, 0.03); /* Lighter glass */
     border-radius: 0 16px 16px 0;
     transition: 0.3s;
 }
 
 .edu-item:hover {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.05); /* Slight brighten on hover */
     transform: translateX(10px);
 }
 
 .edu-year {
-    font-weight: 600;
-    color: var(--primary-accent);
+    font-weight: 500; /* Less aggressive weight */
+    color: var(--text-muted); /* Silver text for dates */
     min-width: 120px;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .institution-name {
-    color: var(--text-main);
+    color: var(--text-muted); /* Softer than main text */
 }
 
 .institution-location {

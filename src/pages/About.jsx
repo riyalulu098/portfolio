@@ -17,21 +17,24 @@ const About = () => {
             <h3>Who I Am</h3>
           </div>
           <p className="bio-intro">
-            I am a <strong>Frontend Developer</strong> and <strong>UI/UX Designer</strong> passionate about building scalable, component-based web applications.
-            I specialize in the <strong>React ecosystem</strong>, crafting clean, responsive, and high-performance interfaces that bridge the gap between design and technology.
+            I am a <strong>UI/UX Designer</strong> passionate about building mobile and web interfaces that balance visual appeal with seamless usability.
+            I specialize in <strong>Figma</strong> and responsive layouts, crafting clean and high-performance interfaces that bridge the gap between design and user needs.
           </p>
           <p className="bio-details">
-            My background in Computer Applications (BCA) provides a strong technical foundation, allowing me to understand not just the visuals, but the <strong>scalable architecture</strong> under the hood.
-            From <strong>Figma prototypes</strong> to production-ready <strong>React code</strong>, I handle the full lifecycle of frontend development.
+            Dedicated to bringing fresh ideas, structured thinking and strong collaboration to every project. I design with empathy and clarity to ensure every screen supports real user needs.
           </p>
           <div className="contact-meta">
             <div className="meta-item">
               <i className="ri-map-pin-line"></i>
-              <span>Malappuram, Kerala</span>
+              <span>Malappuram</span>
             </div>
             <div className="meta-item">
               <i className="ri-mail-line"></i>
-              <span>shahulhamd456@gmail.com</span>
+              <span>riyalulu098@gmail.com</span>
+            </div>
+            <div className="meta-item">
+              <i className="ri-phone-line"></i>
+              <span>6235806079</span>
             </div>
           </div>
         </div>
@@ -46,12 +49,11 @@ const About = () => {
           <div className="education-list">
             <div className="edu-item">
               <div className="edu-year">
-                06/2025 – <br />12/2025
+                08/2025 – 01/2025
               </div>
               <div className="edu-details">
-                <h4>Skill Diploma in UI/UX Designing</h4>
-                <p className="institution-name">Technodot Academy</p>
-                <p className="institution-location">Kozhikode, Kerala</p>
+                <h4>Skill Diploma in UI/UX Design</h4>
+                <p className="institution-name">Technodot Acadamy of R&D&I</p>
               </div>
             </div>
 
@@ -60,9 +62,8 @@ const About = () => {
                 2022 – 2025
               </div>
               <div className="edu-details">
-                <h4>Bachelor of Computer Applications (BCA)</h4>
-                <p className="institution-name">Calicut University</p>
-                <p className="institution-location">Malappuram, Kerala</p>
+                <h4>Bachelor of Commerce</h4>
+                <p className="institution-name">Calicut university</p>
               </div>
             </div>
           </div>

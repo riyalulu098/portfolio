@@ -104,11 +104,11 @@
 .intro-text {
     font-size: 5rem;
     font-weight: 700;
-    color: #000000;
+    color: #ffffff; /* Dark theme adjustment */
     margin: 0;
     display: flex;
     gap: 0;
-    /* font-family: 'Playfair Display', serif; - Removed for standardization */
+    font-family: 'Playfair Display', serif;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }

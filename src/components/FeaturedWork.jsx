@@ -94,13 +94,13 @@ const FeaturedWork = () => {
                 </div>
 
                 <div className="projects-grid">
-                    {/* Project 1: BiteBloom */}
+                    {/* Project 1: Elegance couture */}
                     <div className="project-column">
-                        <a href="https://bitebloome.vercel.app/" className="work-card">
+                        <a href="#" className="work-card">
                             <div className="work-card-header">
                                 <div>
-                                    <h3>BiteBloom</h3>
-                                    <p>Artisanal Bakery & Cafe Website in React</p>
+                                    <h3>Elegance couture</h3>
+                                    <p>Mobile shopping application for women</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -108,8 +108,8 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/bit1.jpg"
-                                    alt="BiteBloom - Artisanal Bakery Website built with React"
+                                    src="/assets/Image1.jpeg"
+                                    alt="Elegance couture - Mobile shopping application for women"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
@@ -120,13 +120,13 @@ const FeaturedWork = () => {
                         </a>
                     </div>
 
-                    {/* Project 2: Logistics Pro */}
+                    {/* Project 2: Zylo fashion style */}
                     <div className="project-column">
-                        <a href="https://logistics-sable.vercel.app/" className="work-card">
+                        <a href="#" className="work-card">
                             <div className="work-card-header">
                                 <div>
-                                    <h3>Logistics Pro</h3>
-                                    <p>UX/UI Dashboard Design</p>
+                                    <h3>Zylo fashion style</h3>
+                                    <p>Responsive website UI for a customized bridal dress brand</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -134,8 +134,8 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/logipre.jpg"
-                                    alt="Logistics Pro - Supply Chain Dashboard UX UI Design"
+                                    src="/assets/Image2.png"
+                                    alt="Zylo fashion style - Bridal dress brand website"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"

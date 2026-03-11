@@ -21,21 +21,12 @@ const Hero = () => {
 
             // Profile Container
             heroTl.from(".profile-container", {
-                scale: 0.8,
+                scale: 0.9, /* Softer load for premium feel */
                 opacity: 0,
-                rotation: 5,
+                y: 30, /* Slide up instead of rotate */
                 duration: 1.4,
-                ease: "elastic.out(1, 0.5)"
+                ease: "power3.out"
             }, "-=1");
-
-            // Float Cards
-            heroTl.from(".float-card", {
-                y: 50,
-                opacity: 0,
-                duration: 0.8,
-                stagger: 0.2,
-                ease: "back.out(1.7)"
-            }, "-=0.5");
 
             // Interactive Text (Rubber Band)
             const letters = document.querySelectorAll('.interactive-text span');
@@ -71,8 +62,6 @@ const Hero = () => {
 
             window.addEventListener('resize', updateWindowDimensions);
 
-            const xSetCard = gsap.quickSetter(".float-card", "x", "px");
-            const ySetCard = gsap.quickSetter(".float-card", "y", "px");
             const xSetProfile = gsap.quickSetter(".profile-container", "x", "px");
             const ySetProfile = gsap.quickSetter(".profile-container", "y", "px");
 
@@ -80,8 +69,6 @@ const Hero = () => {
                 const x = (e.clientX / windowWidth - 0.5) * 30;
                 const y = (e.clientY / windowHeight - 0.5) * 30;
 
-                xSetCard(x);
-                ySetCard(y);
                 xSetProfile(-x * 0.5);
                 ySetProfile(-y * 0.5);
             };
@@ -109,18 +96,17 @@ const Hero = () => {
                     <div className="hero-text-section">
                         <span className="greeting">I'm</span>
                         <h1 className="interactive-text">
-                            <span>S</span><span>h</span><span>a</span><span>h</span><span>u</span><span>l</span>
+                            <span>R</span><span>i</span><span>y</span><span>a</span>
                             &nbsp;
-                            <span>H</span><span>a</span><span>m</span><span>e</span><span>e</span><span>d</span>
+                            <span>P</span><span>K</span>
                         </h1>
-                        <h2 className="role">React Frontend Developer & UI/UX Designer</h2>
+                        <h2 className="role">UI / UX Designer</h2>
                         <p className="bio">
-                            I build performant, scalable web applications and intuitive user interfaces.
-                            Specializing in <strong>React, JavaScript, and Modern Design Systems</strong> to create digital experiences that stand out.
+                            User-focused UI/UX Designer with experience building mobile and web interfaces that balance visual appeal with seamless usability. Skilled in <strong>Figma, prototyping and creating responsive layouts</strong>.
                         </p>
 
                         <div className="cta-group">
-                            <a href="/assets/SHAHUL-Cv.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary magnetic-btn" style={{ marginRight: '10px' }}>
+                            <a href="/assets/riya_pk_cv.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary magnetic-btn" style={{ marginRight: '10px' }}>
                                 Download CV
                             </a>
                             <Link to="/contact" className="btn btn-primary1 magnetic-btn">
@@ -133,29 +119,12 @@ const Hero = () => {
                     <div className="hero-visual-section">
                         <div className="profile-container">
                             <img
-                                src="/assets/WhatsApp Image 2026-01-25 at 6.16.22 PM.jpeg"
-                                alt="Shahul Hameed - React Frontend Developer & UI Designer"
+                                src="/assets/riya-profile.png"
+                                alt="Riya P K - UI/UX Designer"
                                 loading="eager"
                                 width="350"
                                 height="450"
                             />
-                        </div>
-
-                        {/* Floating Cards */}
-                        <div className="glass-card float-card card-1">
-                            <div className="icon-box"><i className="ri-palette-line"></i></div>
-                            <div className="card-text">
-                                <h4>UI Designer</h4>
-                                <span>Visual Design</span>
-                            </div>
-                        </div>
-
-                        <div className="glass-card float-card card-2">
-                            <div className="icon-box"><i className="ri-code-s-slash-line"></i></div>
-                            <div className="card-text">
-                                <h4>Frontend Dev</h4>
-                                <span>React & CSS</span>
-                            </div>
                         </div>
                     </div>
                 </div>

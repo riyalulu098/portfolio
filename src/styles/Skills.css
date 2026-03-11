@@ -30,12 +30,13 @@
 .category-icon {
     width: 40px;
     height: 40px;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.05); /* Dark theme adjustment */
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary-accent);
+    color: var(--text-main);
     font-size: 1.2rem;
 }
 
@@ -52,12 +53,12 @@
 }
 
 .skill-tag {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.05); /* Dark theme adjustment */
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.9rem;
-    color: var(--secondary-accent);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--text-muted);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     display: inline-block;
     transition: all 0.3s ease;
     cursor: default;
@@ -100,17 +101,17 @@
     will-change: transform, opacity, box-shadow;
 }
 
-/* Card Themes */
+/* Card Themes - Dark UI Adjustments */
 .card-blue {
-    background: linear-gradient(135deg, #eff6ff, #dbeafe);
+    background: linear-gradient(135deg, #1e3a8a, #172554);
 }
 
 .card-purple {
-    background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+    background: linear-gradient(135deg, #4c1d95, #2e1065);
 }
 
 .card-green {
-    background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+    background: linear-gradient(135deg, #14532d, #052e16);
 }
 
 .stack-content {

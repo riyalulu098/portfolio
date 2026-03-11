@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="brand-logo" ref={logoRef} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <span className="brand-text-wrapper">
-            <span className="brand-text">Shahul</span><span className="brand-dot">.</span>
+            <span className="brand-text">Riya</span><span className="brand-dot">.</span>
           </span>
         </Link>
 

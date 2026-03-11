@@ -48,7 +48,7 @@ const Process = () => {
                                 <i className="ri-search-eye-line"></i>
                             </div>
                             <h4>Discovery</h4>
-                            <p className="text-muted small">Deep dive into user needs, competitor analysis, and problem definition.</p>
+                            <p className="small">Deep dive into user needs, competitor analysis, and problem definition.</p>
                         </div>
                     </div>
 
@@ -60,7 +60,7 @@ const Process = () => {
                                 <i className="ri-mind-map"></i>
                             </div>
                             <h4>Strategy</h4>
-                            <p className="text-muted small">Blueprinting the architecture, wireframing flows, and planning the UX.</p>
+                            <p className="small">Blueprinting the architecture, wireframing flows, and planning the UX.</p>
                         </div>
                     </div>
 
@@ -72,7 +72,7 @@ const Process = () => {
                                 <i className="ri-pen-nib-line"></i>
                             </div>
                             <h4>Design</h4>
-                            <p className="text-muted small">Crafting pixel-perfect visuals, interactive prototypes, and design systems.</p>
+                            <p className="small">Crafting pixel-perfect visuals, interactive prototypes, and design systems.</p>
                         </div>
                     </div>
 
@@ -84,7 +84,7 @@ const Process = () => {
                                 <i className="ri-code-box-line"></i>
                             </div>
                             <h4>Develop</h4>
-                            <p className="text-muted small">Translating designs into clean, responsive, and accessible code.</p>
+                            <p className="small">Translating designs into clean, responsive, and accessible code.</p>
                         </div>
                     </div>
                 </div>

@@ -28,15 +28,16 @@
 
 /* Interactive Text (Spelling moving separately) */
 .hero-content h1.interactive-text {
-    font-size: 3.5rem;
-    color: #000000 !important;
-    /* Force Black */
+    font-size: 4.5rem; /* Larger, more premium */
+    font-weight: 800; /* Extra bold */
+    line-height: 1.1;
+    letter-spacing: -0.02em; /* Tighter tracking for large text */
+    color: var(--text-main) !important;
     cursor: default;
     opacity: 1 !important;
-    /* Override potential GSAP stuck state */
     position: relative;
     z-index: 10;
-    max-width: 420px;
+    max-width: 500px;
 }
 
 .interactive-text span {
@@ -53,21 +54,26 @@
 }
 
 .hero-text-section h2 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: var(--primary-accent);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
 }
 
 .hero-text-section .role {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 300; /* Thin look */
     color: var(--text-muted);
+    margin-bottom: 1.5rem;
 }
 
 .hero-text-section .bio {
     font-size: 1.1rem;
-    max-width: 500px;
-    margin-bottom: 2rem;
+    line-height: 1.8;
+    color: var(--text-muted);
+    max-width: 480px;
+    margin-bottom: 2.5rem;
 }
 
 /* Hero Visual Section */
@@ -78,19 +84,17 @@
     align-items: center;
 }
 
-/* Profile & Floating Cards */
+/* Profile & Floating Cards Removed logically, keeping base styles for fallback */
 .profile-container {
-    width: 350px;
-    height: 450px;
-    border-radius: 120px;
+    width: 380px;
+    height: 500px;
+    border-radius: 40px; /* Squircle look, no longer fully circular */
     overflow: hidden;
     position: relative;
     z-index: 2;
-    border: 4px solid rgba(255, 255, 255, 0.5);
-    /* Thinner, clearer border */
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.05); /* Very thin, clean border */
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6); /* Deep, soft shadow */
+    background: #09090b; /* Zinc 950 base */
 }
 
 .profile-container img {
@@ -100,46 +104,7 @@
 }
 
 .float-card {
-    position: absolute;
-    /* Keep as absolute */
-    z-index: 3;
-    padding: 16px 20px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    min-width: 200px;
-}
-
-.card-1 {
-    top: 50px;
-    right: -20px;
-}
-
-.card-2 {
-    bottom: 80px;
-    left: -40px;
-}
-
-.icon-box {
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.9);
-    /* More opaque */
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary-accent);
-    font-size: 1.2rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-
-
-
-@media (max-width: 1024px) {
-    .float-card {
-        display: none !important;
-    }
+    display: none !important; /* Fully hiding these as they clutter a minimalist premium layout */
 }
 
 /* Media Queries */
@@ -172,18 +137,18 @@
 
 @media (max-width: 768px) {
     .hero-content h1.interactive-text {
-        font-size: 2.5rem;
+        font-size: 3rem;
         /* Smaller font on mobile */
     }
 
     .float-card {
-        display: none;
-        /* Hide floating cards on mobile to prevent overflow */
+        display: none !important;
     }
 
     .profile-container {
-        width: 200px;
-        /* Smaller on mobile */
-        height: 280px;
+        width: 100%;
+        max-width: 320px;
+        height: 420px;
+        border-radius: 30px;
     }
 }

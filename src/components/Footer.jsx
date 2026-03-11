@@ -50,13 +50,13 @@ const Footer = () => {
           <div className="footer-brand-info">
             <Link to="/" className="brand-name footer-brand-logo" style={{ textDecoration: 'none', display: 'inline-flex', position: 'relative' }} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               <span className="brand-text-wrapper">
-                Shahul.
+                Riya.
               </span>
             </Link>
-            <p className="brand-location">Based in Kerala, India.</p>
+            <p className="brand-location">Based in Malappuram, Kerala.</p>
           </div>
-          <a href="mailto:hello@shahul.design" className="footer-email-btn magnetic-btn">
-            <span>hello@shahul.design</span>
+          <a href="mailto:riyalulu098@gmail.com" className="footer-email-btn magnetic-btn">
+            <span>riyalulu098@gmail.com</span>
             <i className="ri-arrow-right-up-line"></i>
           </a>
         </div>
@@ -65,19 +65,16 @@ const Footer = () => {
         <div className="footer-social-section">
           <h5 className="connect-heading">Connect</h5>
           <div className="footer-socials">
-            <a href="www.linkedin.com/in/shahul-hameed-therambil" className="social-icon-btn"><i className="ri-linkedin-fill"></i></a>
-           
-            <a href="https://www.instagram.com/shahull__" className="social-icon-btn"><i className="ri-instagram-line"></i></a>
-             <a href="#" className="social-icon-btn"><i className="ri-dribbble-line"></i></a>
-            <a href="#" className="social-icon-btn"><i className="ri-behance-fill"></i></a>
+            <a href="https://linkedin.com/" className="social-icon-btn"><i className="ri-linkedin-fill"></i></a>
+            <a href="https://wa.me/916235806079" className="social-icon-btn"><i className="ri-whatsapp-line"></i></a>
           </div>
         </div>
       </div>
 
       {/* Copyright Line */}
       <div className="footer-bottom">
-        <p className="footer-copyright">&copy; 2025 Shahul Hameed. All rights reserved.</p>
-        <p className="footer-credit">Designed & Coded by shahul</p>
+        <p className="footer-copyright">&copy; 2026 Riya P K. All rights reserved.</p>
+        <p className="footer-credit">Designed & Coded by Riya</p>
       </div>
 
       {/* Background Gradient Blur */}

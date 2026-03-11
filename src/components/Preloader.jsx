@@ -86,7 +86,7 @@ const Preloader = ({ onComplete }) => {
             <div className="intro-text-container">
                 <div className="intro-logo-wrapper">
                     <h1 className="intro-text">
-                        {['S', 'h', 'a', 'h', 'u', 'l'].map((char, i) => (
+                        {['R', 'i', 'y', 'a'].map((char, i) => (
                             <span key={i} className="intro-char">{char}</span>
                         ))}
                         <div className="intro-dot"></div>
