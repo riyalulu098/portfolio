@@ -106,7 +106,7 @@ const Hero = () => {
                         </p>
 
                         <div className="cta-group">
-                            <a href="/assets/riya_pk_cv.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary magnetic-btn" style={{ marginRight: '10px' }}>
+                            <a href={`${import.meta.env.BASE_URL}assets/riya_pk_cv.pdf`} target="_blank" rel="noopener noreferrer" className="btn btn-primary magnetic-btn" style={{ marginRight: '10px' }}>
                                 Download CV
                             </a>
                             <Link to="/contact" className="btn btn-primary1 magnetic-btn">
@@ -119,7 +119,7 @@ const Hero = () => {
                     <div className="hero-visual-section">
                         <div className="profile-container">
                             <img
-                                src="/assets/riya-profile.png"
+                                src={`${import.meta.env.BASE_URL}assets/riya-profile.png`}
                                 alt="Riya P K - UI/UX Designer"
                                 loading="eager"
                                 width="350"

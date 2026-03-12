@@ -108,7 +108,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/zylo_mockup.png"
+                                    src={`${import.meta.env.BASE_URL}assets/zylo_mockup.png`}
                                     alt="Zylo fashion style - Bridal dress brand website"
                                     className="work-image"
                                     loading="lazy"
@@ -134,7 +134,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/pizza moc.png"
+                                    src={`${import.meta.env.BASE_URL}assets/pizza moc.png`}
                                     alt="Fresh Bite - Pizza app mockup"
                                     className="work-image"
                                     loading="lazy"
@@ -145,7 +145,7 @@ const FeaturedWork = () => {
                             </div>
                         </a>
                     </div>
-                    
+
                     {/* Project 6: Creative Agency */}
                     <div className="project-column">
                         <a href="#" className="work-card">
@@ -160,7 +160,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/creative agency.png"
+                                    src={`${import.meta.env.BASE_URL}assets/creative agency.png`}
                                     alt="Creative Agency"
                                     className="work-image"
                                     loading="lazy"
@@ -186,7 +186,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/Global Reach.png"
+                                    src={`${import.meta.env.BASE_URL}assets/Global Reach.png`}
                                     alt="Global Reach"
                                     className="work-image"
                                     loading="lazy"
