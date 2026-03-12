@@ -94,32 +94,6 @@ const FeaturedWork = () => {
                 </div>
 
                 <div className="projects-grid">
-                    {/* Project 1: Elegance couture */}
-                    <div className="project-column">
-                        <a href="#" className="work-card">
-                            <div className="work-card-header">
-                                <div>
-                                    <h3>Elegance couture</h3>
-                                    <p>Mobile shopping application for women</p>
-                                </div>
-                                <div className="work-icon">
-                                    <i className="ri-arrow-right-up-line"></i>
-                                </div>
-                            </div>
-                            <div className="work-image-wrapper">
-                                <img
-                                    src="/assets/Image1.jpeg"
-                                    alt="Elegance couture - Mobile shopping application for women"
-                                    className="work-image"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="800"
-                                    height="600"
-                                />
-                            </div>
-                        </a>
-                    </div>
-
                     {/* Project 2: Zylo fashion style */}
                     <div className="project-column">
                         <a href="#" className="work-card">
@@ -134,7 +108,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/Image2.png"
+                                    src="/assets/zylo_mockup.png"
                                     alt="Zylo fashion style - Bridal dress brand website"
                                     className="work-image"
                                     loading="lazy"
@@ -146,13 +120,13 @@ const FeaturedWork = () => {
                         </a>
                     </div>
 
-                    {/* Project 3: Fresh Bite */}
+                    {/* Project 5: Fresh Bite */}
                     <div className="project-column">
-                        <a href="https://www.figma.com/design/KLNqT1DtgQcf0WVfIkebrb/Untitled?node-id=1-26&t=EOnhOZRhRMJ4rqjh-1" target="_blank" rel="noopener noreferrer" className="work-card">
+                        <a href="#" className="work-card">
                             <div className="work-card-header">
                                 <div>
-                                    <h3>Lingo</h3>
-                                    <p>Learning app</p>
+                                    <h3>Fresh Bite</h3>
+                                    <p>Food delivery application</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -160,8 +134,34 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/learning app moc.png"
-                                    alt="Learning app"
+                                    src="/assets/pizza moc.png"
+                                    alt="Fresh Bite - Pizza app mockup"
+                                    className="work-image"
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="800"
+                                    height="600"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    
+                    {/* Project 6: Creative Agency */}
+                    <div className="project-column">
+                        <a href="#" className="work-card">
+                            <div className="work-card-header">
+                                <div>
+                                    <h3>Creative Agency</h3>
+                                    <p>Agency Portfolio Website</p>
+                                </div>
+                                <div className="work-icon">
+                                    <i className="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                            <div className="work-image-wrapper">
+                                <img
+                                    src="/assets/creative agency.png"
+                                    alt="Creative Agency"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
@@ -172,13 +172,13 @@ const FeaturedWork = () => {
                         </a>
                     </div>
 
-                    {/* Project 4: SkyCast */}
+                    {/* Project 7: Global Reach */}
                     <div className="project-column">
-                        <a href="https://www.figma.com/design/kBB5BC7AIwxj5VMLO7777k/Untitled?node-id=0-1&t=MAl2GCAaRNuT8nsf-1" target="_blank" rel="noopener noreferrer" className="work-card">
+                        <a href="#" className="work-card">
                             <div className="work-card-header">
                                 <div>
-                                    <h3>Daily Do</h3>
-                                    <p>React Native Productivity App</p>
+                                    <h3>Global Reach</h3>
+                                    <p>Global Reach Platform</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -186,8 +186,8 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/dailyyy.png"
-                                    alt="Daily Do - Task Management App Application"
+                                    src="/assets/Global Reach.png"
+                                    alt="Global Reach"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
